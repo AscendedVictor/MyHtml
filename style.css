@@ -1,0 +1,82 @@
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: #36646e;
+}
+
+nav a {
+    color: rgb(230, 225, 225);
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+
+/* ANA SAYFA */
+
+.screen{
+   width: 80%;
+    margin: 0 auto;
+    background-color: #222;
+    text-align: 10;
+   
+}
+
+
+main {
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px;
+}
+
+.hero {
+    background-color: #1f0d0d;
+    padding: 50px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    color: #dbdbde;
+    font-size: 18px;
+}
+
+
+/* FİLMLER */
+
+.film-container {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.film-card {
+    width: 180px;
+    background-color: #202020;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.film-card img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.film-card h3 {
+    margin: 10px 5px 5px;
+}
+
+.film-card p {
+    margin: 5px;
+    color: #060506;
+}
+
